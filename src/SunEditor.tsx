@@ -82,6 +82,7 @@ const SunEditor: FC<SunEditorReactProps> = (props) => {
       "onMouseDown",
       "onScroll",
       "onInput",
+      "onMouseUp",
       "onClick",
       "onKeyUp",
       "onKeyDown",
