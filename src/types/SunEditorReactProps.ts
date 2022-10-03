@@ -16,6 +16,7 @@ export interface SunEditorReactProps {
   ) => boolean;
   onClick?: (event: MouseEvent) => void;
   onMouseDown?: (event: MouseEvent) => void;
+  onMouseUp?: (event: MouseEvent) => void;
   onKeyUp?: (event: KeyboardEvent) => void;
   onKeyDown?: (event: KeyboardEvent) => void;
   onFocus?: (event: FocusEvent) => void;
